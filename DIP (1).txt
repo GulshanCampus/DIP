@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt 
+import  matplotlib.image as mping
+from skimage import io
+import PIL as pl
+img=io.imread('images.jpg',as_grey=True)
+print(img)
+plt.imshow(img, cmap='gray')
+plt.show()
+#print(img)
